@@ -1,9 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Contact - Andres Saenz</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+	
+	<header id="main">
+		<div class="container">
+			<a href="index.html" id="logo">Andres Saenz</a>
 
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<div id="content" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
+
+			<form id="contact_form">
+				<label>Name</label>
+				<input type="text" id=name placeholder="John Smith">
+					
+				<label>Email</label>
+				<input type="email" id="email" placeholder="example@gmail.com">
+					
+				<label>Message</label>
+				<textarea id="message"></textarea>
+					
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect With Me</h2>
+
+				<a href="https://github.com/saenza76">
+					<img src="assets/images/github.png" alt="Github" id="github">
+				</a>
+
+				<a href="https://www.linkedin.com/in/andres-saenz-2a140749">
+					<img src="assets/images/linkedin.png" alt="LinkedIn" id="linkedin">
+				</a>
+
+				<a href="http://stackoverflow.com/users/6637364/andres-saenz">
+					<img src="assets/images/stackoverflow.png" alt="Stack Overflow" id="stackoverflow">
+				</a>
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Andres Saenz
+		</div>
+	</footer>
+	
 </body>
 </html>
